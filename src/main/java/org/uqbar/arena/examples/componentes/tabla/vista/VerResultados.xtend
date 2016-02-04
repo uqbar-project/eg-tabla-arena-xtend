@@ -37,7 +37,6 @@ class VerResultados extends SimpleWindow<AgenciaDeLoteria>{
 				fixedSize = 150   //el tamaño que va a tener
 				bindContentsToProperty("nombreLoteria") //la propiedad que mostramos del objeto que está atrás de la fila 
 			]   
-
 			//el numero que salió en la loteria 
 			new Column<ResultadoLoteria>(it) => [
 				title = "Ganador"
