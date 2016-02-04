@@ -8,9 +8,9 @@ import org.uqbar.arena.examples.componentes.tabla.dominio.Loteria
 class AgenciaDeLoteriaApplication extends Application{
 	
 	override protected createMainWindow() {
-		var agencia = new AgenciaDeLoteria => [
-			agregarResultado(new ResultadoLoteria(Loteria.NACIONAL,6404))
-			agregarResultado(new ResultadoLoteria(Loteria.BUENOS_AIRES,9895))
+		val agencia = new AgenciaDeLoteria => [
+			agregarResultado(new ResultadoLoteria(Loteria.NACIONAL, 6404))
+			agregarResultado(new ResultadoLoteria(Loteria.BUENOS_AIRES, 9895))
 		]
 		new VerResultados(this, agencia)
 	}

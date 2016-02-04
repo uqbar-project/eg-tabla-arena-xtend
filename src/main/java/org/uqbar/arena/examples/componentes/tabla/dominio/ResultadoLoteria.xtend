@@ -11,7 +11,7 @@ class ResultadoLoteria {
 	
 	new(Loteria nombreLoteria, Integer numeroAfortunado){
 		this.nombreLoteria = nombreLoteria
-		this.numeroGanador= numeroAfortunado
+		this.numeroGanador = numeroAfortunado
 	}
 	
 }
