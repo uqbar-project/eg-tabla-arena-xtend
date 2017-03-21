@@ -1,5 +1,7 @@
 # Tablas o Grillas
 
+[![Build Status](https://travis-ci.org/uqbar-project/eg-tabla-arena-xtend.svg?branch=master)](https://travis-ci.org/uqbar-project/eg-tabla-arena-xtend)
+
 Esta aplicación sencilla muestra el uso de tablas en Arena.
 
 # La aplicación
