@@ -1,7 +1,7 @@
 package org.uqbar.arena.examples.componentes.tabla.dominio
 
 import org.eclipse.xtend.lib.annotations.Accessors
-import org.uqbar.commons.utils.Observable
+import org.uqbar.commons.model.annotations.Observable
 
 @Observable
 @Accessors

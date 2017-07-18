@@ -2,14 +2,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>tabla-arena-xtend</artifactId>
+	<artifactId>eg-tabla-arena-xtend</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>Aplicacion sencilla para mostrar el uso de las tablas en Arena</name>
 
 	<parent>
 		<groupId>org.uqbar-project</groupId>
 		<artifactId>arena-xtend-parent</artifactId>
-		<version>3.6.2</version>
+		<version>3.6.3</version>
 	</parent>
 
 	<build>
