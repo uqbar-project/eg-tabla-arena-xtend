@@ -21,7 +21,7 @@ class VerResultados extends SimpleWindow<AgenciaDeLoteria>{
 	
 	override protected createFormPanel(Panel mainPanel) {
 		// creamos el componente tabla para mostrar los números ganadores de la lotería!
-		new Table<ResultadoLoteria>(mainPanel, typeof(ResultadoLoteria)) => [
+		new Table<ResultadoLoteria>(mainPanel, ResultadoLoteria) => [
 			// bindeamos el contenido de la tabla
 			items <=> "resultados"
 			// le definimos el alto y ancho, esto es opcional
